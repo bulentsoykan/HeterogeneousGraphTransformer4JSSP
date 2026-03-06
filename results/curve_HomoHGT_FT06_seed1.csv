@@ -1,0 +1,8 @@
+method,instance,seed,timestep,mean_makespan
+HomoHGT,FT06,1,8064,108.0
+HomoHGT,FT06,1,16128,102.0
+HomoHGT,FT06,1,24048,110.0
+HomoHGT,FT06,1,32112,80.0
+HomoHGT,FT06,1,40032,79.0
+HomoHGT,FT06,1,48096,65.0
+HomoHGT,FT06,1,50112,68.0

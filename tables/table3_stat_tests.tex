@@ -1,0 +1,28 @@
+\begin{table}[t]
+  \centering
+  \small
+  \caption{%
+    Statistical significance of HGT-Scheduler improvements.
+    Paired $t$-test comparing HGT-Scheduler vs.\ each baseline
+    using per-seed mean makespans.
+    $\Delta$: relative improvement; $p$: two-tailed $p$-value.
+  }
+  \label{tab:stat_tests}
+  \begin{tabular}{llrrrl}
+    \toprule
+    \textbf{Instance} & \textbf{Comparison} & $\Delta$ (\%) & \textbf{HGT} & \textbf{Baseline} & $p$-value \\
+    \midrule
+    FT06 ($6\times6$) & LPT & +53.80 & 59.6 & 129.0 & 0.0000$^{**}$ \\
+     & SPT & +45.32 & 59.6 & 109.0 & 0.0000$^{**}$ \\
+     & Random & +37.99 & 59.6 & 96.1 & 0.0000$^{**}$ \\
+     & Homo-HGT (ablation) & +9.70 & 59.6 & 66.0 & 0.0112$^{*}$ \\
+     & GIN (L2D-style) & +10.51 & 59.6 & 66.6 & 0.1658 \\
+    \midrule
+    FT10 ($10\times10$) & LPT & +45.78 & 1594.2 & 2940.0 & 0.0004$^{**}$ \\
+     & SPT & +39.80 & 1594.2 & 2648.0 & 0.0011$^{**}$ \\
+     & GIN (L2D-style) & +20.08 & 1594.2 & 1994.8 & 0.1026 \\
+     & Random & +13.02 & 1594.2 & 1832.8 & 0.1335 \\
+     & Homo-HGT (ablation) & -3.48 & 1594.2 & 1540.6 & 0.7751 \\
+    \bottomrule
+  \end{tabular}
+\end{table}

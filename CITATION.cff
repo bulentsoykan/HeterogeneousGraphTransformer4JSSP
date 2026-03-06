@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "HGT-Scheduler: Exploiting Edge Semantics in Job Shop Scheduling Problem with Heterogeneous Graph Transformers"
+authors:
+  - family-names: Soykan
+    given-names: Bulent
+    email: Bulent.Soykan@ucf.edu
+    affiliation: "Institute for Simulation and Training, University of Central Florida"
+    orcid: ""
+version: 0.1.0
+date-released: 2026-03-06
+abstract: >
+  A reinforcement learning scheduler for the Job Shop Scheduling Problem (JSSP)
+  that uses a Heterogeneous Graph Transformer (HGT) to exploit the two distinct
+  edge semantics of the disjunctive graph representation: precedence constraints
+  ('precedes' edges) and machine-sharing contention ('competes' edges).
+  Type-dependent attention over these edge types yields a statistically significant
+  improvement on the FT06 benchmark (p=0.011) over a homogeneous ablation baseline.
+keywords:
+  - job shop scheduling
+  - heterogeneous graph transformer
+  - reinforcement learning
+  - PPO
+  - graph neural network
+  - disjunctive graph
+license: MIT
+contact:
+  - name: "Bulent Soykan"
+    email: Bulent.Soykan@ucf.edu
+    affiliation: "Institute for Simulation and Training, University of Central Florida, 3100 Technology Pkwy, Orlando, FL 32826 USA"
